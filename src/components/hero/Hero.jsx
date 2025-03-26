@@ -7,7 +7,8 @@ const Hero = () => {
     <div className='hero'>
         <img src={profile_img} alt="" />
         <h1><span>Welcome</span> to my portfolio!</h1>
-        <p>Hello! My name is Alexander Philippopoulos. I'm a game developer based in the Greater Toronto Area. 
+        <p>Hello! My name is <span>Alexander Philippopoulos</span>. I'm a <span>game developer</span> based in the Greater Toronto Area. 
+        I specialize in <span>gameplay programming</span>.
         My dream is to develop fun and creative games that will bring joy and inspiration to people around the world.</p>
         <div className="hero-action">
             <div className="hero-connect">Connect with me</div>

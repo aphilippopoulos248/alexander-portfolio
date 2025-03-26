@@ -25,6 +25,12 @@
     font-size: 24px;
     line-height: 40px;
 }
+.hero p span{
+    background: linear-gradient(270deg, #05E8BA 10%, #087EE1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .hero-action{
     display: flex;
     align-items: center;
