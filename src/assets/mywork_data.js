@@ -26,16 +26,6 @@ const mywork_data = [
         w_name:"Web design",
         w_img:project4_img
     },
-    {
-        w_no:5,
-        w_name:"Web design",
-        w_img:project5_img
-    },
-    {
-        w_no:6,
-        w_name:"Web design",
-        w_img:project6_img
-    },
 ]
  
 export default mywork_data;
