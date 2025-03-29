@@ -1,18 +1,18 @@
 const Services_Data = [
     {
         s_no:"01",
-        s_name:"Web design",
-        s_desc:"Web development is the process of building, programming..."
+        s_name:"Game Development",
+        s_desc:"Developing games with Unity and Unreal Engine"
     },
     {
         s_no:"02",
-        s_name:"Graphics design",
-        s_desc:"Web development is the process of building, programming..."
+        s_name:"Web Development",
+        s_desc:"Developing websites with React and Angular"
     },
     {
         s_no:"03",
-        s_name:"Social media",
-        s_desc:"Web development is the process of building, programming..."
+        s_name:"Mobile App Development",
+        s_desc:"Developing mobile apps with Android Studio"
     },
 ]
  

@@ -27,8 +27,8 @@
 }
 .projects-container img{
     box-sizing: border-box;
-    width: 419px;
-    height: 280px;
+    width: 600px;
+    height: 420px;
     transition: 0.3s;
     cursor: pointer;
 }

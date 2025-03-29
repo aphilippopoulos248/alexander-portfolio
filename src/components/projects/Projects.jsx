@@ -16,10 +16,10 @@ const Projects = () => {
                 return <img key={index} src={work.w_img} alt="" />
             })}
         </div>
-        <div className="projects-showmore">
+        {/* <div className="projects-showmore">
             <p>Show More</p>
             <img src={arrow_icon} alt=""></img>
-        </div>
+        </div> */}
     </div>
   )
 }
