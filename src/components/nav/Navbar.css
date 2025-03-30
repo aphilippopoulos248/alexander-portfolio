@@ -27,7 +27,17 @@
     gap: 5px;
     cursor: pointer;
 }
-.nav-menu li img{
-    display: flex;
-    margin: auto;
+.nav-menu li:hover{
+    transform: scale(1.1);
+
+    background: linear-gradient(267deg, #05E8BA 0.36%, #087EE1 102.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    background-clip: text;
+    color: transparent;
+}
+.anchor-link{
+    text-decoration: none;
+    color: white;
 }

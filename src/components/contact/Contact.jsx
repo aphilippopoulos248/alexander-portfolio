@@ -7,7 +7,7 @@ import linkedin_icon from '../../assets/icons8-linkedin.svg'
 
 const Contact = () => {
   return (
-    <div className='contact'>
+    <div id='contact' className='contact'>
         <div className="contact-title">
             <h1>Contact Me</h1>
             <img src={theme_pattern} alt=""/>

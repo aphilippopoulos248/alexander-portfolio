@@ -4,7 +4,7 @@ import profile_img from '../../assets/profile_img.svg'
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div id='home' className='hero'>
         <img src={profile_img} alt="" />
         <h1><span>Welcome</span> to my portfolio!</h1>
         <p>Hello! My name is <span>Alexander Philippopoulos</span>. I'm a <span>game developer</span> based in the Greater Toronto Area. 
