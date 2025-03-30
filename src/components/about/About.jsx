@@ -1,5 +1,5 @@
 import React from 'react'
-import './About.css'
+import './About.scss'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import profile_img from '../../assets/AlexAbout.png'
 
