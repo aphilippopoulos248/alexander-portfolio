@@ -1,24 +1,29 @@
+@function calc-rem($px) {
+    @return $px / 16 + rem;
+  }
+
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 170px;
+    margin: calc-rem(20) calc-rem(170);
     position: sticky; /* This makes the navbar stick to the top */
-    top: 0; /* Makes sure it stays at the top of the viewport */
+    top: calc-rem(20); /* Makes sure it stays at the top of the viewport */
     z-index: 1000; /* Ensures it's above other content */
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0) 70%);
 }
 .nav-menu{
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 60px;
-    font-size: 20px;
+    gap: calc-rem(60);
+    font-size: calc-rem(20);
 }
 .nav-connect{
-    padding: 20px 40px;
-    border-radius: 50px;
+    padding: calc-rem(20) calc-rem(40);
+    border-radius: calc-rem(50);
     background: linear-gradient(267deg, #05E8BA 0.36%, #087EE1 102.06%);
-    font-size: 22px;
+    font-size: calc-rem(22);
     cursor: pointer;
     transition: 0.3s;
 }
@@ -29,7 +34,7 @@
 .nav-menu li{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: calc-rem(5);
     cursor: pointer;
     transition: 0.3s;
 }
