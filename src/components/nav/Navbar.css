@@ -3,6 +3,9 @@
     align-items: center;
     justify-content: space-between;
     margin: 20px 170px;
+    position: sticky; /* This makes the navbar stick to the top */
+    top: 0; /* Makes sure it stays at the top of the viewport */
+    z-index: 1000; /* Ensures it's above other content */
 }
 .nav-menu{
     display: flex;
@@ -17,15 +20,18 @@
     background: linear-gradient(267deg, #05E8BA 0.36%, #087EE1 102.06%);
     font-size: 22px;
     cursor: pointer;
+    transition: 0.3s;
 }
 .nav-connect:hover{
     transform: scale(1.05);
+    transition: 0.3s;
 }
 .nav-menu li{
     display: flex;
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
+    transition: 0.3s;
 }
 .nav-menu li:hover{
     transform: scale(1.1);
@@ -36,6 +42,7 @@
 
     background-clip: text;
     color: transparent;
+    transition: 0.3s;
 }
 .anchor-link{
     text-decoration: none;

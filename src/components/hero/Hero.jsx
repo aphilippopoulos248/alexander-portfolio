@@ -1,6 +1,7 @@
 import React from 'react'
 import './Hero.css'
-import profile_img from '../../assets/profile_img.svg'
+import profile_img from '../../assets/AlexProfile.png'
+import VideoComponent from '../video/VideoComponent'; 
 
 const Hero = () => {
   return (
@@ -13,6 +14,9 @@ const Hero = () => {
         <div className="hero-action">
             <div className="hero-connect">Connect with me</div>
             <div className="hero-resume">My resume</div>
+        </div>
+        <div className="video-section">
+          <VideoComponent />
         </div>
     </div>
   )
