@@ -28,6 +28,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: calc-rem(40);
+    margin-bottom: calc-rem(100);
 }
 .projects-container img{
     box-sizing: border-box;
