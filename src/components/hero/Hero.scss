@@ -101,38 +101,39 @@
 
 @media(max-width: calc-rem(768)){
     .hero img{
-        margin-bottom: calc-rem(100);
-        width: calc-rem(200);
+        margin-top: calc-rem(-20);
+        margin-bottom: calc-rem(80);
+        width: calc-rem(150);
     }
     .hero h1{
-        margin-top: calc-rem(0);
+        margin-top: calc-rem(-10);
         width: calc-rem(500);
         font-size: calc-rem(50);
     }
     .hero p{
         width: 80%;
         font-size: calc-rem(22);
-        line-height: calc-rem(22);
+        line-height: calc-rem(24);
         margin: calc-rem(-100) calc-rem(0);
     }
     .type-animation{
         font-size: calc-rem(32);
-        margin-top: calc-rem(30);
-        margin-bottom: calc-rem(10);
+        margin-top: calc-rem(20);
+        margin-bottom: calc-rem(0);
     } 
     .hero-action{
         gap: calc-rem(16);
         font-size: calc-rem(18);
         font-weight: 500;
         margin-bottom: calc-rem(50);
-        margin-top: calc-rem(120);
+        margin-top: calc-rem(100);
     }
     .hero-connect{
-        padding: calc-rem(20) calc-rem(30);
+        padding: calc-rem(10) calc-rem(15);
         border-radius: calc-rem(40);
     }
     .hero-resume{
-        padding: calc-rem(20) calc-rem(50);
+        padding: calc-rem(10) calc-rem(25);
         border-radius: calc-rem(40);
     }
 }

@@ -76,7 +76,7 @@
         display: block;
         position: relative;
         top: calc-rem(30);
-        left: calc-rem(290);
+        left: calc-rem(140);
         width: calc-rem(30);
     }
     .nav-menu{
@@ -85,16 +85,16 @@
         align-items: start;
         top: 0;
         gap: calc-rem(30);
-        background-color: rgba(0, 0, 0, 0.9);
-        width: calc-rem(350);
+        background-color: rgba(0, 0, 0, 0.8);
+        width: calc-rem(200);
         height: 100%;
         z-index: 2;
         transition: right 0.5s;
-        right: calc-rem(-350);
+        right: calc-rem(-200);
     }
     .nav-menu li{
         font-size: calc-rem(30);
-        padding-left: calc-rem(100);
+        padding-left: calc-rem(50);
         flex-direction: row;
         gap: calc-rem(20);
     }
