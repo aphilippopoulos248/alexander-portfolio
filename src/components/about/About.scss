@@ -41,9 +41,10 @@
     font-weight: 500;
 }
 .about-skills{
-    display: flex;
-    flex-direction: column;
-    gap: calc-rem(20);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: calc-rem(40);
+    margin-bottom: calc-rem(80);
 }
 .about-skill{
     display: flex;
@@ -51,18 +52,8 @@
     align-items: center;
     transition: 0.3s;
 }
-.about-skill p{
-    min-width: calc-rem(150);
-    font-size: calc-rem(24);
-    font-weight: 500;
-}
-.about-skill hr{
-    outline: none;
-    border: none;
-    width: 50%;
-    height: calc-rem(8);
-    border-radius: calc-rem(50);
-    background: linear-gradient(270deg, #05E8BA 10%, #087EE1 100%);
+.about-skill img{
+    width: 30%;
 }
 .about-softwares {
     display: flex;

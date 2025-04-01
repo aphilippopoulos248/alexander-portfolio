@@ -2,6 +2,12 @@ import React from 'react'
 import './About.scss'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import profile_img from '../../assets/AlexAbout.png'
+import cpp from '../../assets/cpp.svg'
+import cs from '../../assets/cs.svg'
+import java from '../../assets/java.svg'
+import javascript from '../../assets/javascript.svg'
+import html from '../../assets/html.svg'
+import css from '../../assets/css.svg'
 
 const About = () => {
   return (
@@ -22,19 +28,22 @@ const About = () => {
             </div>
             <div className="about-skills">
               <div className="about-skill">
-                <p>C++</p><hr style={{width:"90%"}}></hr>
+                <img src={cpp} alt="" />
               </div>
               <div className="about-skill">
-                <p>C#</p><hr style={{width:"70%"}}></hr>
+                <img src={cs} alt="" />
               </div>
               <div className="about-skill">
-                <p>Javascript</p><hr style={{width:"45%"}}></hr>
+                <img src={java} alt="" />
               </div>
               <div className="about-skill">
-                <p>HTML & CSS</p><hr style={{width:"50%"}}></hr>
+                <img src={javascript} alt="" />
               </div>
               <div className="about-skill">
-                <p>Java</p><hr style={{width:"30%"}}></hr>
+                <img src={html} alt="" />
+              </div>
+              <div className="about-skill">
+                <img src={css} alt="" />
               </div>
             </div>
             
