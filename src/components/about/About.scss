@@ -55,36 +55,7 @@
 .about-skill img{
     width: 30%;
 }
-.about-softwares {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    margin-bottom: calc-rem(80);
-}
-.about-software {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: calc-rem(10);
-    transition: 0.5s;
-}
-.about-software h1{
-    font-size: calc-rem(60);
-    font-weight: 700;
-    background: linear-gradient(270deg, #05E8BA 10%, #087EE1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.about-software p{
-    font-size: calc-rem(18);
-    font-weight: 500;
-}
 .about-skill:hover{
     transform: scale(1.05);
-    transition: 0.3s;
-}
-.about-software:hover{
-    transform: scale(1.12);
-    transition: 0.5s;
+    transition: 0.4s;
 }

@@ -1,16 +1,30 @@
 import React from 'react'
 import './Hero.scss'
 import profile_img from '../../assets/AlexProfile.png'
-import VideoComponent from '../video/VideoComponent'; 
+import VideoComponent from '../video/VideoComponent';
+import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
     <div id='home' className='hero'>
         <img src={profile_img} alt="" />
-        <h1><span>Welcome</span> to my portfolio!</h1>
-        <p>Hello! My name is <span>Alexander Philippopoulos</span>. I'm a <span>game developer</span> based in the Greater Toronto Area. 
-        I specialize in <span>gameplay programming</span>.
-        My dream is to develop fun and creative games that will bring joy and inspiration to people around the world.</p>
+        <p>Hello! My name is <span>Alexander Philippopoulos</span>. I'm a <br></br>
+          <div className="type-animation">
+             <TypeAnimation
+              sequence={[
+                "Game Developer",
+                2000, 
+                "Web Developer",
+                2000,
+                "Mobile Developer",
+                2000,
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+            />
+          </div>
+        <br></br> based in the <span>Greater Toronto Area</span>.</p>
         <div className="hero-action">
             <div className="hero-connect">Connect with me</div>
             <div className="hero-resume">My resume</div>

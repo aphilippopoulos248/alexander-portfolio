@@ -49,22 +49,6 @@ const About = () => {
             
           </div>
         </div>
-        {/* <div className="about-softwares">
-            <div className="about-software">
-              <h1>Unity</h1>
-              <p>2D games and mobile games</p>
-            </div>
-            <hr />
-            <div className="about-software">
-              <h1>Unreal Engine</h1>
-              <p>3D games with high-end graphics</p>
-            </div>
-            <hr />
-            <div className="about-software">
-              <h1>Blender</h1>
-              <p>Importing/Modifying assets and animations</p>
-            </div>
-        </div> */}
     </div>
   )
 }

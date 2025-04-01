@@ -11,8 +11,8 @@ const Services_Data = [
     },
     {
         s_no:"03",
-        s_name:"Mobile App Development",
-        s_desc:"Developing mobile apps with Android Studio"
+        s_name:"Mobile Development",
+        s_desc:"Developing mobile apps with React Native and Android Studio"
     },
 ]
  
