@@ -14,7 +14,7 @@ const Navbar = () => {
     menuRef.current.style.right="0";
   }
   const closeMenu = () => {
-    menuRef.current.style.right="-350 / 16 + rem";
+    menuRef.current.style.right="-21.875rem";
   }
 
   const anchorOffset = 100;

@@ -97,3 +97,41 @@
         background-position: 100% 100%;
     }
 }
+
+@media(max-width: calc-rem(768)){
+    .hero img{
+        margin-bottom: calc-rem(120);
+        width: calc-rem(260);
+    }
+    .hero h1{
+        margin-top: calc-rem(10);
+        width: calc-rem(500);
+        font-size: calc-rem(70);
+    }
+    .hero p{
+        width: 60%;
+        font-size: calc-rem(22);
+        line-height: calc-rem(22);
+        margin: calc-rem(-100) calc-rem(0);
+    }
+    .type-animation{
+        font-size: calc-rem(32);
+        margin-top: calc-rem(30);
+        margin-bottom: calc-rem(10);
+    } 
+    .hero-action{
+        gap: calc-rem(16);
+        font-size: calc-rem(18);
+        font-weight: 500;
+        margin-bottom: calc-rem(50);
+        margin-top: calc-rem(120);
+    }
+    .hero-connect{
+        padding: calc-rem(20) calc-rem(30);
+        border-radius: calc-rem(40);
+    }
+    .hero-resume{
+        padding: calc-rem(20) calc-rem(50);
+        border-radius: calc-rem(40);
+    }
+}
