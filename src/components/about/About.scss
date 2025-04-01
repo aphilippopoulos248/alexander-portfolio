@@ -26,7 +26,7 @@
 }
 .about-sections{
     display: flex;
-    gap: 80px;
+    gap: calc-rem(80);
 }
 .about-right{
     display: flex;
@@ -43,7 +43,7 @@
 .about-skills{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: calc-rem(40);
+    gap: calc-rem(30);
     margin-bottom: calc-rem(80);
 }
 .about-skill{
@@ -51,9 +51,12 @@
     gap: calc-rem(50);
     align-items: center;
     transition: 0.3s;
+    width: calc-rem(100);
+    height: calc-rem(100);
 }
 .about-skill img{
-    width: 30%;
+    width: 100%;
+    height: 100%;
 }
 .about-skill:hover{
     transform: scale(1.05);

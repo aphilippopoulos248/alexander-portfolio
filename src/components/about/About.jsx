@@ -30,7 +30,7 @@ const About = () => {
             <div className="about-para">
               <p>Ever since I was 5 years old, I loved playing video games. My first games I played were mobile games on my iPad. I then developed a love for computer games and console games.</p>
               <p>When I was 13, I got my very first phone. It was a samsung galaxy, and I fell in love with it. I enjoyed listening to music and watching YouTube videos on my phone. I began to realize how precious our mobile devices can really be.</p>
-              <p>Although I mainly code for games, I also have experience making websites and mobile applications with Java and Javascript. This very website was coded with React JS.</p>
+              <p>I then realized that my new found passion for technology was what led me to following the path to creating digital media. I learned a variety of programming languages, libraries, and softwares that helped me on my developer journey. If I learned anything, its that you never stop learning.</p>
             </div>
             <div className="about-skills">
               <div className="about-skill">
@@ -52,7 +52,6 @@ const About = () => {
                 <img src={css} alt="" />
               </div>
             </div>
-            
           </div>
         </div>
     </div>
