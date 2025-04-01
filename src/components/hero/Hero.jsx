@@ -3,11 +3,18 @@ import './Hero.scss'
 import profile_img from '../../assets/AlexProfile.png'
 import VideoComponent from '../video/VideoComponent';
 import { TypeAnimation } from "react-type-animation";
+import AOS from "aos";
+import "aos/dist/aos.css"
+import { useEffect } from "react"
 
 const Hero = () => {
+  useEffect(() => {
+    AOS.init({})
+  }, [])
   return (
     <div id='home' className='hero'>
-        <img src={profile_img} alt="" />
+      <h1 data-aos="fade-up">Welcome!</h1>
+        <img src={profile_img} alt="" data-aos="fade-up" data-aos-delay="300"/>
         <p>Hello! My name is <span>Alexander Philippopoulos</span>. I'm a <br></br>
           <div className="type-animation">
              <TypeAnimation

@@ -23,7 +23,7 @@ const About = () => {
           <div className="about-right">
             <div className="about-para">
               <p>Ever since I was 5 years old, I loved playing video games. My first games I played were mobile games on my iPad. I then developed a love for computer games and console games.</p>
-              <p>I am a strong believer that games have many purposes in our lives. Not only do they help us relax and escape from stress, but they also bring people together. I wish to contribute to the game industry to make games that can truly make people happy.</p>
+              <p>When I was 13, I got my very first phone. It was a samsung galaxy, and I fell in love with it. I enjoyed listening to music and watching YouTube videos on my phone. I began to realize how precious our mobile devices can really be.</p>
               <p>Although I mainly code for games, I also have experience making websites and mobile applications with Java and Javascript. This very website was coded with React JS.</p>
             </div>
             <div className="about-skills">

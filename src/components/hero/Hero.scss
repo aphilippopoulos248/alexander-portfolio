@@ -6,10 +6,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: calc-rem(35)
-}
-.hero img{
-    margin-top: calc-rem(150);
+    gap: calc-rem(35);
 }
 .hero h1{
     text-align: center;
@@ -25,13 +22,13 @@
 }
 .type-animation{
     text-align: center;
-    font-size: calc-rem(80);
+    font-size: calc-rem(54);
     margin-top: calc-rem(50);
 }
 .hero p{
     width: 50%;
     text-align: center;
-    font-size: calc-rem(48);
+    font-size: calc-rem(32);
     line-height: calc-rem(40);
 }
 .hero p span{
