@@ -34,7 +34,7 @@
     gap: calc-rem(30);
 }
 .contact-left h1{
-    font-size: calc-rem(80);
+    font-size: calc-rem(60);
     font-weight: 600;
     background: linear-gradient(270deg, #05E8BA 10%, #087EE1 100%);
     background-clip: text;
@@ -63,7 +63,7 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: calc-rem(30);
+    gap: calc-rem(20);
 }
 .contact-right label{
     color: #D8D8D8;
@@ -73,7 +73,7 @@
 .contact-right input{
     border: none;
     width: calc-rem(700);
-    height: calc-rem(80);
+    height: calc-rem(60);
     padding-left: calc-rem(20);
     border-radius: calc-rem(4);
     background: #32323c;

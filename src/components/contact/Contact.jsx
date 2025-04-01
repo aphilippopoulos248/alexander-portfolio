@@ -13,7 +13,7 @@ const Contact = () => {
             <img src={theme_pattern} alt=""/>
         </div>
         <div className="contact-section">
-            <div className="contact-left">
+            <div className="contact-left" data-aos="fade-right" data-aos-delay="300">
                 <h1>Let's Talk</h1>
                 <p>I'm currently available to help with any projects, so feel free to reach out to me.</p>
                 <div className="contact-detail">
@@ -26,7 +26,7 @@ const Contact = () => {
                     <img src={linkedin_icon} alt="" /> <p>My LinkedIn</p>
                 </div>
             </div>
-            <form className="contact-right">
+            <form className="contact-right" data-aos="fade-left" data-aos-delay="600">
                 <label htmlFor="">Your Name</label>
                 <input type="text"placeholder='Enter your name' name='name' />
                 <label htmlFor="">Your Email</label>
