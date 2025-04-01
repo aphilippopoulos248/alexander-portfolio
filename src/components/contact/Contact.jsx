@@ -6,6 +6,31 @@ import call_icon from '../../assets/call_icon.svg'
 import linkedin_icon from '../../assets/icons8-linkedin.svg'
 
 const Contact = () => {
+    const [result, setResult] = React.useState("");
+
+    const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "2bfd6da2-f549-43cb-97d7-725c2535bb92");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      alert("Form submitted successfully");
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
   return (
     <div id='contact' className='contact'>
         <div className="contact-title" data-aos="fade-up">
@@ -26,14 +51,14 @@ const Contact = () => {
                     <img src={linkedin_icon} alt="" /> <p>My LinkedIn</p>
                 </div>
             </div>
-            <form className="contact-right" data-aos="fade-left" data-aos-delay="600">
+            <form onSubmit={onSubmit} className="contact-right" data-aos="fade-left" data-aos-delay="600">
                 <label htmlFor="">Your Name</label>
                 <input type="text"placeholder='Enter your name' name='name' />
                 <label htmlFor="">Your Email</label>
                 <input type="email"placeholder='Enter your email' name='email' />
                 <label htmlFor="">Write your message here</label>
-                <textarea name="message" rows="8" placeholder='Enter your message'></textarea>
-                <button type='submit' className="contact-submit">Submit now</button>
+                <textarea name="message" rows="6" placeholder='Enter your message'></textarea>
+                <button name="access_key" value="2bfd6da2-f549-43cb-97d7-725c2535bb92" type='submit' className="contact-submit">Submit now</button>
             </form>
         </div>
     </div>
