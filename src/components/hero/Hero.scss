@@ -15,10 +15,17 @@
     font-weight: 600;
 }
 .hero h1 span{
-    background: linear-gradient(270deg, #05E8BA 10%, #087EE1 100%);
+    background: linear-gradient(270deg, 
+    #05E8BA, 
+    #087EE1, 
+    #05E8BA, 
+    #087EE1,
+    #06C8C6);
+    background-size: 200% 200%;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: gradient 8s ease infinite;
 }
 .type-animation{
     text-align: center;
@@ -32,10 +39,17 @@
     line-height: calc-rem(40);
 }
 .hero p span{
-    background: linear-gradient(270deg, #05E8BA 10%, #087EE1 100%);
+    background: linear-gradient(270deg, 
+    #05E8BA, 
+    #087EE1, 
+    #05E8BA, 
+    #087EE1,
+    #06C8C6);
+    background-size: 200% 200%;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: gradient 8s ease infinite;
 }
 .hero-action{
     display: flex;
@@ -49,7 +63,13 @@
 .hero-connect{
     padding: calc-rem(25) calc-rem(45);
     border-radius: calc-rem(50);
-    background: linear-gradient(264deg, #05E8BA -5.09%, #087EE1 100%);
+    background: linear-gradient(270deg, 
+    #07B3CE, 
+    #0793D9, 
+    #07B3CE, 
+    #06D3C2);
+    background-size: 200% 200%;
+    animation: gradient 8s ease infinite;
     cursor: pointer;
 }
 .hero-resume{
@@ -66,4 +86,14 @@
 }
 .video-section{
     width: 70%;
+}
+
+@keyframes gradient {
+    0%,
+    100% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
 }

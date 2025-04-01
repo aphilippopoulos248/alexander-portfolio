@@ -13,7 +13,7 @@ const Hero = () => {
   }, [])
   return (
     <div id='home' className='hero'>
-      <h1 data-aos="fade-up"><span>Welcome!</span></h1>
+        <h1 data-aos="fade-up"><span>Welcome!</span></h1>
         <img src={profile_img} alt="" data-aos="fade-up" data-aos-delay="300"/>
         <p data-aos="fade-up" data-aos-delay="600">Hello! My name is <span>Alexander Philippopoulos</span>. I'm a <br></br>
           <div className="type-animation">
