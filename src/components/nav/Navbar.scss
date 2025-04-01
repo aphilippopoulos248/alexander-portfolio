@@ -59,6 +59,7 @@
 .nav-mob-open{
     display: none;
 }
+
 @media(max-width: calc-rem(768)){
     .navbar{
         margin: calc-rem(20) calc-rem(50);
