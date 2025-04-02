@@ -28,6 +28,9 @@
     display: flex;
     gap: calc-rem(80);
 }
+.about-left img{
+    border-radius: calc-rem(15);
+}
 .about-right{
     display: flex;
     flex-direction: column;

@@ -20,15 +20,34 @@
     font-size: calc-rem(20);
 }
 .nav-connect{
-    padding: calc-rem(20) calc-rem(40);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: calc-rem(20);
+    padding: calc-rem(10) calc-rem(40);
+    border: calc-rem(2) solid transparent;
     border-radius: calc-rem(50);
-    background: linear-gradient(267deg, #05E8BA 0.36%, #087EE1 102.06%);
+    background: linear-gradient(270deg, 
+    #07B3CE, 
+    #0793D9, 
+    #07B3CE, 
+    #06D3C2);
+    background-size: 200% 200%;
+    animation: gradient 8s ease infinite;
     font-size: calc-rem(22);
     cursor: pointer;
     transition: 0.3s;
+    background-size: 200% 200%;
 }
 .nav-connect:hover{
-    transform: scale(1.05);
+    border-color: white;
+    transition: 0.3s;
+}
+.nav-connect img{
+    width: 100%;
+    transition: 0.3s;
+}
+.nav-connect img:hover{
+    transform: scale(1.15);
     transition: 0.3s;
 }
 .nav-menu li{
@@ -40,11 +59,9 @@
 }
 .nav-menu li:hover{
     transform: scale(1.1);
-
     background: linear-gradient(267deg, #05E8BA 0.36%, #087EE1 102.06%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
     background-clip: text;
     color: transparent;
     transition: 0.3s;
@@ -58,6 +75,16 @@
 }
 .nav-mob-open{
     display: none;
+}
+
+@keyframes gradient {
+    0%,
+    100% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
 }
 
 @media(max-width: calc-rem(768)){

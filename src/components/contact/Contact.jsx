@@ -3,7 +3,6 @@ import './Contact.scss'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import mail_icon from '../../assets/mail_icon.svg'
 import call_icon from '../../assets/call_icon.svg'
-import linkedin_icon from '../../assets/icons8-linkedin.svg'
 
 const Contact = () => {
     const [result, setResult] = React.useState("");
@@ -46,9 +45,6 @@ const Contact = () => {
                 </div>
                 <div className="contact-detail">
                     <img src={call_icon} alt="" /> <p>647-975-2248</p>
-                </div>
-                <div className="contact-detail">
-                    <img src={linkedin_icon} alt="" /> <p>My LinkedIn</p>
                 </div>
             </div>
             <form onSubmit={onSubmit} className="contact-right" data-aos="fade-left" data-aos-delay="600">

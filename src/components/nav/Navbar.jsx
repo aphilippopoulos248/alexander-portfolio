@@ -4,6 +4,9 @@ import logo from '../../assets/logo.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import menu_open from "../../assets/menu_open.svg"
 import menu_close from "../../assets/menu_close.svg"
+import linkedin_icon from "../../assets/icons8-linkedin.svg"
+import github_icon from "../../assets/icons8-github-48.svg"
+import mail_icon from "../../assets/icons8-email-48.png"
 
 const Navbar = () => {
 
@@ -31,7 +34,11 @@ const Navbar = () => {
           <li><AnchorLink className='anchor-link' offset={anchorOffset} href='#projects'><p onClick={()=>setMenu("projects")}>Projects</p></AnchorLink></li>
           <li><AnchorLink className='anchor-link' offset={anchorOffset} href='#contact'><p onClick={()=>setMenu("contact")}>Contact</p></AnchorLink></li>
         </ul>
-        <div className="nav-connect">Connect With Me</div>
+        <div className="nav-connect">
+          <img src={mail_icon} alt="" />
+          <img src={linkedin_icon} alt="" />
+          <img src={github_icon} alt="" />
+        </div>
     </div>
   )
 }
