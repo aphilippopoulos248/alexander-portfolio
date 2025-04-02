@@ -30,11 +30,12 @@ const Contact = () => {
       setResult(data.message);
     }
   };
+  
   return (
     <div id='contact' className='contact'>
         <div className="contact-title" data-aos="fade-up">
             <h1>Contact Me</h1>
-            <img src={theme_pattern} alt=""/>
+            {/* <img src={theme_pattern} alt=""/> */}
         </div>
         <div className="contact-section">
             <div className="contact-left" data-aos="fade-right" data-aos-delay="300">

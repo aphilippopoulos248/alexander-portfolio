@@ -20,7 +20,7 @@ const About = () => {
     <div id='about' className='about'>
         <div className="about-title" data-aos="fade-up">
           <h1>About Me</h1>
-          <img src={theme_pattern} alt="" />
+          {/* <img src={theme_pattern} alt="" /> */}
         </div>
         <div className="about-sections">
           <div className="about-left" data-aos="fade-right" data-aos-delay="300">

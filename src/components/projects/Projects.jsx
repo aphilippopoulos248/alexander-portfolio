@@ -9,7 +9,7 @@ const Projects = () => {
     <div id='projects' className='projects'>
         <div className="projects-title" data-aos="fade-up">
             <h1>My Projects</h1>
-            <img src={theme_pattern} alt="" />
+            {/* <img src={theme_pattern} alt="" /> */}
         </div>
         <div className="projects-container" data-aos="fade-up" data-aos-delay="300">
             {mywork_data.map((work, index)=>{
