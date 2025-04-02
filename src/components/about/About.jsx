@@ -26,13 +26,13 @@ const About = () => {
           <div className="about-left" data-aos="fade-right" data-aos-delay="300">
               <img src={profile_img} alt="" />
           </div>
-          <div className="about-right" data-aos="fade-left" data-aos-delay="600">
-            <div className="about-para">
+          <div className="about-right">
+            <div className="about-para" data-aos="fade-left" data-aos-delay="600">
               <p>Ever since I was 5 years old, I loved playing video games. My first games I played were mobile games on my iPad. I then developed a love for computer games and console games.</p>
               <p>When I was 13, I got my very first phone. It was a samsung galaxy, and I fell in love with it. I enjoyed listening to music and watching YouTube videos on my phone. I began to realize how precious our mobile devices can really be.</p>
-              <p>I then realized that my new found passion for technology was what led me to following the path to creating digital media. I learned a variety of programming languages, libraries, and softwares that helped me on my developer journey. If I learned anything, its that you never stop learning.</p>
+              <p>I realized that my new found passion for technology was what led me to following the path to creating digital media. I learned a variety of programming languages, libraries, and softwares that helped me on my developer journey. If I learned anything, its that you never stop learning.</p>
             </div>
-            <div className="about-skills">
+            <div className="about-skills" data-aos="fade-up" data-aos-delay="900">
               <div className="about-skill">
                 <img src={cpp} alt="" />
               </div>
