@@ -8,6 +8,12 @@ import java from '../../assets/java.svg'
 import javascript from '../../assets/javascript.svg'
 import html from '../../assets/html.svg'
 import css from '../../assets/css.svg'
+import unity from '../../assets/unity.svg'
+import unrealEngine from '../../assets/unreal-engine.svg'
+import blender from '../../assets/blender.svg'
+import react from '../../assets/react.svg'
+import node from '../../assets/node.svg'
+import android from '../../assets/android.svg'
 import AOS from "aos";
 import "aos/dist/aos.css"
 import { useEffect } from "react"
@@ -50,6 +56,24 @@ const About = () => {
               </div>
               <div className="about-skill">
                 <img src={css} alt="" />
+              </div>
+              <div className="about-skill">
+                <img src={unity} alt="" />
+              </div>
+              <div className="about-skill">
+                <img src={unrealEngine} alt="" />
+              </div>
+              <div className="about-skill">
+                <img src={blender} alt="" />
+              </div>
+              <div className="about-skill">
+                <img src={react} alt="" />
+              </div>
+              <div className="about-skill">
+                <img src={node} alt="" />
+              </div>
+              <div className="about-skill">
+                <img src={android} alt="" />
               </div>
             </div>
           </div>
