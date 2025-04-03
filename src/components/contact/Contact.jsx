@@ -39,7 +39,7 @@ const Contact = () => {
         </div>
         <div className="contact-section">
             <div className="contact-left" data-aos="fade-right" data-aos-delay="300">
-                <h1>Let's Talk</h1>
+                <h1>Let's Create</h1>
                 <p>I'm currently available to help with any projects, so feel free to reach out to me.</p>
                 <div className="contact-detail">
                     <img src={mail_icon} alt="" /> <p>alexanderphilippopoulos@gmail.com</p>
@@ -55,7 +55,7 @@ const Contact = () => {
                 <input type="email"placeholder='Enter your email' name='email' />
                 <label htmlFor="">Write your message here</label>
                 <textarea name="message" rows="6" placeholder='Enter your message'></textarea>
-                <button name="access_key" value="2bfd6da2-f549-43cb-97d7-725c2535bb92" type='submit' className="contact-submit">Submit now</button>
+                <button name="access_key" value="2bfd6da2-f549-43cb-97d7-725c2535bb92" type='submit' className="contact-submit">Submit</button>
             </form>
         </div>
     </div>

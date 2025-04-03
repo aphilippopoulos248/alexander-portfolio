@@ -37,9 +37,15 @@ const Navbar = () => {
         <li><AnchorLink className='anchor-link' offset={anchorOffset} href='#contact'><p onClick={()=>setMenu("contact")}>Contact</p></AnchorLink></li>
       </ul>
       <div className="nav-connect">
-        <img src={mail_icon} alt="" />
-        <img src={linkedin_icon} alt="" />
-        <img src={github_icon} alt="" />
+        <a href="mailto:alexanderphilippopoulos@gmail.com">
+          <img src={mail_icon} alt="" />
+        </a>
+        <a href="https://www.linkedin.com/in/alexander-philippopoulos-037268258/">
+          <img src={linkedin_icon} alt="" />
+        </a>
+        <a href="https://github.com/aphilippopoulos248">
+          <img src={github_icon} alt="" />
+        </a>
       </div>
     </div>
   )

@@ -46,9 +46,16 @@
     border-color: white;
     transition: 0.3s;
 }
+.nav-connect a{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
 .nav-connect img{
     width: 100%;
+    height: auto;
     transition: 0.3s;
+    display: block;
 }
 .nav-connect img:hover{
     transform: scale(1.15);
