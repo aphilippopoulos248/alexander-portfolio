@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react'
 import './Navbar.scss'
 import logo from '../../assets/logo.svg'
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import menu_open from "../../assets/menu_open.svg"
 import menu_close from "../../assets/menu_close.svg"
 import linkedin_icon from "../../assets/icons8-linkedin.svg"
@@ -24,21 +24,23 @@ const Navbar = () => {
 
   return (
     <div id='navbar' className='navbar'>
+      <div className="nav-logo">
         <img src={logo} alt="" />
-        <img src={menu_open} alt="" onClick={openMenu} className='nav-mob-open' />
-        <ul ref={menuRef} className="nav-menu">
-          <img src={menu_close} onClick={closeMenu} alt="" className='nav-mob-close' />
-          <li><AnchorLink className='anchor-link' offset={anchorOffset} href='#home'><p onClick={()=>setMenu("home")}>Home</p></AnchorLink></li>
-          <li><AnchorLink className='anchor-link' offset={anchorOffset} href='#about'><p onClick={()=>setMenu("about")}>About Me</p></AnchorLink></li>
-          <li><AnchorLink className='anchor-link' offset={anchorOffset} href='#services'><p onClick={()=>setMenu("services")}>Services</p></AnchorLink></li>
-          <li><AnchorLink className='anchor-link' offset={anchorOffset} href='#projects'><p onClick={()=>setMenu("projects")}>Projects</p></AnchorLink></li>
-          <li><AnchorLink className='anchor-link' offset={anchorOffset} href='#contact'><p onClick={()=>setMenu("contact")}>Contact</p></AnchorLink></li>
-        </ul>
-        <div className="nav-connect">
-          <img src={mail_icon} alt="" />
-          <img src={linkedin_icon} alt="" />
-          <img src={github_icon} alt="" />
-        </div>
+      </div>
+      <img src={menu_open} alt="" onClick={openMenu} className='nav-mob-open' />
+      <ul ref={menuRef} className="nav-menu">
+        <img src={menu_close} onClick={closeMenu} alt="" className='nav-mob-close' />
+        <li><AnchorLink className='anchor-link' offset={anchorOffset} href='#home'><p onClick={()=>setMenu("home")}>Home</p></AnchorLink></li>
+        <li><AnchorLink className='anchor-link' offset={anchorOffset} href='#about'><p onClick={()=>setMenu("about")}>About Me</p></AnchorLink></li>
+        <li><AnchorLink className='anchor-link' offset={anchorOffset} href='#services'><p onClick={()=>setMenu("services")}>Services</p></AnchorLink></li>
+        <li><AnchorLink className='anchor-link' offset={anchorOffset} href='#projects'><p onClick={()=>setMenu("projects")}>Projects</p></AnchorLink></li>
+        <li><AnchorLink className='anchor-link' offset={anchorOffset} href='#contact'><p onClick={()=>setMenu("contact")}>Contact</p></AnchorLink></li>
+      </ul>
+      <div className="nav-connect">
+        <img src={mail_icon} alt="" />
+        <img src={linkedin_icon} alt="" />
+        <img src={github_icon} alt="" />
+      </div>
     </div>
   )
 }

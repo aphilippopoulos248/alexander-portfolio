@@ -7,10 +7,14 @@
     align-items: center;
     justify-content: space-between;
     margin: calc-rem(20) calc-rem(170);
-    position: sticky; /* This makes the navbar stick to the top */
-    top: calc-rem(20); /* Makes sure it stays at the top of the viewport */
-    z-index: 1000; /* Ensures it's above other content */
+    position: sticky; 
+    top: calc-rem(20); 
+    z-index: 1000; 
     background: radial-gradient(circle, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0) 70%);
+}
+.nav-logo img{
+    display: flex;
+    width: 100%;
 }
 .nav-menu{
     display: flex;
@@ -89,7 +93,7 @@
 
 @media(max-width: calc-rem(768)){
     .navbar{
-        margin: calc-rem(20) calc-rem(50);
+        margin: calc-rem(20) calc-rem(20);
         position: fixed;  
         top: 0;           
         left: 0;          

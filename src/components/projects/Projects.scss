@@ -59,3 +59,31 @@
     gap: calc-rem(30);
     transition: 0.6s;
 }
+
+@media(max-width: calc-rem(768)){
+    .projects{
+        gap: calc-rem(40);
+        margin: calc-rem(50) calc-rem(70);
+        align-items: start;
+    }
+    .projects-title h1{
+        margin-top: calc-rem(-20);
+        font-size: calc-rem(50);
+        padding: 0;
+    }
+    .projects-title img{
+        width: calc-rem(130);
+        right: calc-rem(-20);
+    }
+    .projects-container{
+        grid-template-columns: 1fr;
+        gap: calc-rem(40);
+        margin-bottom: calc-rem(80);
+        width: 120%;
+        margin-left: calc-rem(-20);
+    }
+    .projects-container img{
+        width: 100%;
+        height: 100%;
+    }
+}
