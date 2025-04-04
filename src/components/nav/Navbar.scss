@@ -14,7 +14,8 @@
 }
 .nav-logo img{
     display: flex;
-    width: 100%;
+    width: 80%;
+    margin-left: calc-rem(50);
 }
 .nav-menu{
     display: flex;
@@ -22,6 +23,7 @@
     list-style: none;
     gap: calc-rem(60);
     font-size: calc-rem(20);
+    margin-left: calc-rem(100);
 }
 .nav-connect{
     display: grid;
@@ -107,6 +109,10 @@
         width: 100%;      
         z-index: 1000;     
     }
+    .nav-logo img{
+        width: 100%;
+        margin-left: calc-rem(0);
+    }
     .nav-connect{
         display: none;
     }
@@ -128,7 +134,7 @@
         align-items: start;
         top: 0;
         gap: calc-rem(10);
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(0, 0, 0, 0.9);
         width: calc-rem(200);
         height: 100%;
         z-index: 2;
@@ -145,17 +151,19 @@
     .nav-menu .nav-connect {
         display: grid;
         grid-template-columns: 1fr;
-        gap: calc-rem(20);
-        padding: calc-rem(10) calc-rem(20);
+        gap: calc-rem(10);
+        padding: calc-rem(20) calc-rem(20);
         margin-top: calc-rem(30);
         margin-left: calc-rem(55);
         background: linear-gradient(270deg, 
-          #07B3CE, 
-          #0793D9, 
-          #07B3CE, 
-          #06D3C2);
+            rgba(7, 179, 206, 0) 0%,    
+            #0793D9 30%,               
+            #06D3C2 70%,                
+            rgba(7, 179, 206, 0) 100%   
+        );
         background-size: 300% 300%;
         animation: gradient 8s ease infinite;
         font-size: calc-rem(22);
+        border: calc-rem(2) solid white;
     }
 }

@@ -31,6 +31,8 @@
     margin-bottom: calc-rem(100);
 }
 .projects-container img{
+    border: transparent;
+    border-radius: calc-rem(10);
     box-sizing: border-box;
     width: calc-rem(420);
     height: calc-rem(280);

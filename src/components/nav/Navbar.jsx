@@ -6,7 +6,7 @@ import menu_open from "../../assets/menu_open.svg"
 import menu_close from "../../assets/menu_close.svg"
 import linkedin_icon from "../../assets/icons8-linkedin.svg"
 import github_icon from "../../assets/icons8-github-48.svg"
-import mail_icon from "../../assets/icons8-email-48.png"
+import mail_icon from "../../assets/gmail.svg"
 
 const Navbar = () => {
 
@@ -54,13 +54,13 @@ const Navbar = () => {
       </ul>
       <div className="nav-connect">
         <a href="mailto:alexanderphilippopoulos@gmail.com">
-          <img src={mail_icon} alt="" />
+          <img src={mail_icon} alt="Mail" />
         </a>
         <a href="https://www.linkedin.com/in/alexander-philippopoulos-037268258/">
-          <img src={linkedin_icon} alt="" />
+          <img src={linkedin_icon} alt="LinkedIn" />
         </a>
         <a href="https://github.com/aphilippopoulos248">
-          <img src={github_icon} alt="" />
+          <img src={github_icon} alt="GitHub" />
         </a>
       </div>
     </div>

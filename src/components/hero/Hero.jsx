@@ -19,10 +19,11 @@ const Hero = () => {
           <div className="type-animation">
              <TypeAnimation
               sequence={[
+                1000,
                 "Game Developer",
-                2000, 
+                3000, 
                 "Web Developer",
-                2000,
+                3000,
                 "Mobile Developer",
                 2000,
               ]}

@@ -13,6 +13,7 @@ import unrealEngine from '../../assets/unreal-engine.svg'
 import blender from '../../assets/blender.svg'
 import react from '../../assets/react.svg'
 import node from '../../assets/node.svg'
+import dotNetCore from '../../assets/dot-net-core.svg'
 import android from '../../assets/android.svg'
 import AOS from "aos";
 import "aos/dist/aos.css"
@@ -70,7 +71,7 @@ const About = () => {
                 <img src={react} alt="" />
               </div>
               <div className="about-skill">
-                <img src={node} alt="" />
+                <img src={dotNetCore} alt="" />
               </div>
               <div className="about-skill">
                 <img src={android} alt="" />

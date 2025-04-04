@@ -13,7 +13,7 @@ const Projects = () => {
         </div>
         <div className="projects-container" data-aos="fade-up" data-aos-delay="300">
             {mywork_data.map((work, index)=>{
-                return <img key={index} src={work.w_img} alt="" />
+                return <a href={work.w_link}><img key={index} src={work.w_img} alt="" /></a>
             })}
         </div>
         {/* <div className="projects-showmore">
