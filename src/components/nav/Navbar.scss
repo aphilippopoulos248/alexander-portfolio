@@ -10,11 +10,13 @@
     position: sticky; 
     top: calc-rem(20); 
     z-index: 1000; 
-    background: radial-gradient(circle, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0) 70%);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.05) 70%);
+    border: transparent;
+    border-radius: calc-rem(20);
 }
 .nav-logo img{
     display: flex;
-    width: 80%;
+    width: 50%;
     margin-left: calc-rem(50);
 }
 .nav-menu{
@@ -110,7 +112,7 @@
         z-index: 1000;     
     }
     .nav-logo img{
-        width: 100%;
+        width: 50%;
         margin-left: calc-rem(0);
     }
     .nav-connect{

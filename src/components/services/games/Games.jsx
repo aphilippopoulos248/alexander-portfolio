@@ -1,6 +1,6 @@
 import React from 'react'
 import './Games.scss'
-import VideoComponent from '../video/VideoComponent.jsx'
+import VideoComponent from '../../video/VideoComponent.jsx'
 import AOS from "aos";
 import "aos/dist/aos.css"
 import { useEffect } from "react"

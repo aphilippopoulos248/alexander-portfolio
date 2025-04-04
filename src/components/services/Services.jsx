@@ -19,7 +19,7 @@ const Services = () => {
                     <p>{service.s_desc}</p>
                     <div className='services-readmore'>
                         <a href={service.s_link}>
-                            <p>Read More</p>
+                            <p>Click Here</p>
                             {/* <img src={arrow_icon} alt="" /> */}
                         </a>
                     </div>
