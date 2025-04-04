@@ -11,15 +11,15 @@ import mail_icon from "../../assets/gmail.svg"
 const Navbar = () => {
 
   const [menu, setMenu] = useState("home");
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuRef = useRef();
 
   const openMenu = () => {
-    setIsMenuOpen(true);
+    // setIsMenuOpen(true);
     menuRef.current.style.right="0";
   }
   const closeMenu = () => {
-    setIsMenuOpen(false);
+    // setIsMenuOpen(false);
     menuRef.current.style.right="-21.875rem";
   }
 
@@ -38,7 +38,7 @@ const Navbar = () => {
         <li><AnchorLink className='anchor-link' offset={anchorOffset} href='#services'><p onClick={()=>setMenu("services")}>Services</p></AnchorLink></li>
         <li><AnchorLink className='anchor-link' offset={anchorOffset} href='#projects'><p onClick={()=>setMenu("projects")}>Projects</p></AnchorLink></li>
         <li><AnchorLink className='anchor-link' offset={anchorOffset} href='#contact'><p onClick={()=>setMenu("contact")}>Contact</p></AnchorLink></li>
-        {isMenuOpen && (
+        {/* {isMenuOpen && ( */}
           <div className="nav-connect">
             <a href="mailto:alexanderphilippopoulos@gmail.com">
               <img src={mail_icon} alt="Mail" />
@@ -50,9 +50,9 @@ const Navbar = () => {
               <img src={github_icon} alt="GitHub" />
             </a>
           </div>
-        )}
+        {/* )} */}
       </ul>
-      <div className="nav-connect">
+      {/* <div className="nav-connect">
         <a href="mailto:alexanderphilippopoulos@gmail.com">
           <img src={mail_icon} alt="Mail" />
         </a>
@@ -62,7 +62,7 @@ const Navbar = () => {
         <a href="https://github.com/aphilippopoulos248">
           <img src={github_icon} alt="GitHub" />
         </a>
-      </div>
+      </div> */}
     </div>
   )
 }
