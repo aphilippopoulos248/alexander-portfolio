@@ -14,8 +14,9 @@ const mywork_data = [
     },
     {
         w_no:2,
-        w_name:"https://aphilippopoulos248.itch.io/grimwood-manor",
-        w_img:project2_img
+        w_name:"Grimwood Manor",
+        w_img:project2_img,
+        w_link:"https://aphilippopoulos248.itch.io/grimwood-manor"
     },
     {
         w_no:3,

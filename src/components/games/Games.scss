@@ -1,0 +1,22 @@
+@function calc-rem($px) {
+    @return $px / 16 + rem;
+  }
+
+.games{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: calc-rem(80);
+    margin: calc-rem(80) calc-rem(170);
+}
+
+.games-title{
+    position: relative;
+}
+
+.games-title h1{
+    padding: 0 calc-rem(30);
+    font-size: calc-rem(80);
+    font-weight: calc-rem(80);
+}

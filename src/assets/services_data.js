@@ -2,7 +2,8 @@ const Services_Data = [
     {
         s_no:"01",
         s_name:"Game Development",
-        s_desc:"Developing games with Unity and Unreal Engine"
+        s_desc:"Developing games with Unity and Unreal Engine",
+        s_link:"/games"
     },
     {
         s_no:"02",

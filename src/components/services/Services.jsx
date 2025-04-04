@@ -18,8 +18,10 @@ const Services = () => {
                     <h2>{service.s_name}</h2>
                     <p>{service.s_desc}</p>
                     <div className='services-readmore'>
-                        <p>Read More</p>
-                        <img src={arrow_icon} alt="" />
+                        <a href={service.s_link}>
+                            <p>Read More</p>
+                            {/* <img src={arrow_icon} alt="" /> */}
+                        </a>
                     </div>
                 </div>
             })}

@@ -41,6 +41,9 @@
     gap: calc-rem(40);
     margin-bottom: calc-rem(80);
 }
+.services-format a{
+    text-decoration: none;
+}
 .services-format h3{
     font-size: calc-rem(28);
     font-weight: 600;
@@ -64,6 +67,17 @@
     gap: calc-rem(20);
     align-items: center;
     margin-top: calc-rem(20);
+    width: 50%;
+    transition: 0.3s;
+}
+.services-readmore:hover{
+    background: linear-gradient(267deg, #05E8BA 0.36%, #087EE1 102.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    transform: scale(1.2);
+    transition: 0.3s;
 }
 .services-format:hover{
     border: calc-rem(2) solid #087EE1;

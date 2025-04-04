@@ -6,18 +6,28 @@ import Services from './components/services/Services'
 import Projects from './components/projects/Projects'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Import Router, Routes, Route
+import Games from './components/games/Games'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const App = () => {
   return (
     <div>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Services/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
+      <Router>
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Navbar />
+              <Hero />
+              <About />
+              <Services />
+              <Projects />
+              <Contact />
+              <Footer />
+            </>
+          } />
+          <Route path="/games" element={<Games />} />
+        </Routes>
+      </Router>
     </div>
   )
 }
