@@ -14,10 +14,13 @@
     border: transparent;
     border-radius: calc-rem(20);
 }
-.nav-logo img{
+.nav-logo{
     display: flex;
-    width: 50%;
+    flex: none;
     margin-left: calc-rem(50);
+}
+.nav-logo img{
+    width: 60%;
 }
 .nav-menu{
     display: flex;
@@ -29,6 +32,7 @@
 }
 .nav-connect{
     display: grid;
+    flex: none;
     grid-template-columns: 1fr 1fr 1fr;
     gap: calc-rem(20);
     padding: calc-rem(10) calc-rem(40);
@@ -67,6 +71,7 @@
 }
 .nav-menu li{
     display: flex;
+    flex: none;
     flex-direction: column;
     gap: calc-rem(5);
     margin-left: calc-rem(20);
