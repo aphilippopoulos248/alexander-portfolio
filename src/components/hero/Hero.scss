@@ -103,8 +103,8 @@
 
 @media(max-width: calc-rem(768)){
     .hero img{
-        margin-top: calc-rem(-20);
-        margin-bottom: calc-rem(80);
+        margin-top: calc-rem(-30);
+        margin-bottom: calc-rem(70);
         width: calc-rem(150);
     }
     .hero h1{
@@ -115,12 +115,12 @@
     .hero p{
         width: 80%;
         font-size: calc-rem(22);
-        line-height: calc-rem(32);
+        line-height: calc-rem(28);
         margin: calc-rem(-100) calc-rem(0);
     }
     .type-animation{
         font-size: calc-rem(32);
-        margin-top: calc-rem(15);
+        margin-top: calc-rem(10);
         margin-bottom: calc-rem(-15);
     } 
     .hero-action{
@@ -128,7 +128,7 @@
         font-size: calc-rem(18);
         font-weight: 500;
         margin-bottom: calc-rem(100);
-        margin-top: calc-rem(80);
+        margin-top: calc-rem(70);
     }
     .hero-connect{
         padding: calc-rem(10) calc-rem(15);
