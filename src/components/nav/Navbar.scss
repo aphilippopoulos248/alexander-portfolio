@@ -32,7 +32,6 @@
 }
 .nav-connect{
     display: grid;
-    flex: none;
     grid-template-columns: 1fr 1fr 1fr;
     gap: calc-rem(20);
     padding: calc-rem(10) calc-rem(40);
@@ -71,7 +70,6 @@
 }
 .nav-menu li{
     display: flex;
-    flex: none;
     flex-direction: column;
     gap: calc-rem(5);
     margin-left: calc-rem(20);
@@ -105,6 +103,27 @@
     }
     50% {
         background-position: 100% 100%;
+    }
+}
+
+@media(max-width: calc-rem(1600)){
+    .navbar{
+        margin: calc-rem(20) calc-rem(100);
+    }
+    .nav-connect{
+        gap: calc-rem(0);
+        padding: calc-rem(10) calc-rem(20);
+    }
+    .nav-connect img{
+        width: 80%;
+        margin-left: calc-rem(10);
+    }
+    .nav-menu {
+        margin-left: calc-rem(10);
+    }
+    .nav-menu li{
+        gap: calc-rem(0);
+        margin-left: calc-rem(0);
     }
 }
 
