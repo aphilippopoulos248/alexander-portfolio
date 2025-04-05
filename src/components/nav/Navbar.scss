@@ -140,9 +140,6 @@
         width: 60%;
         margin-left: calc-rem(-30);
     }
-    .nav-connect{
-        display: none;
-    }
     .nav-mob-open{
         display: block;
         position: fixed;
@@ -175,7 +172,7 @@
         flex-direction: row;
         gap: calc-rem(20);
     }
-    .nav-menu .nav-connect {
+    .nav-connect {
         display: grid;
         grid-template-columns: 1fr;
         gap: calc-rem(10);
@@ -192,5 +189,9 @@
         animation: gradient 8s ease infinite;
         font-size: calc-rem(22);
         border: calc-rem(2) solid white;
+    }
+    .nav-connect img{
+        width: 100%;
+        margin-left: calc-rem(0);
     }
 }
