@@ -10,13 +10,15 @@
     gap: calc-rem(80);
     margin: calc-rem(80) calc-rem(170);
 }
-
 .games-title{
     position: relative;
 }
-
 .games-title h1{
     padding: 0 calc-rem(30);
     font-size: calc-rem(80);
     font-weight: calc-rem(80);
+}
+.video-component{
+    width: 100%;
+    margin-top: calc-rem(-20);
 }

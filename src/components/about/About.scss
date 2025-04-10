@@ -40,7 +40,7 @@
     display: flex;
     flex-direction: column;
     gap: calc-rem(20);
-    font-size: calc-rem(22);
+    font-size: calc-rem(20);
     font-weight: 400;
 }
 .about-skills{
@@ -48,14 +48,15 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: calc-rem(30);
     margin-bottom: calc-rem(80);
+    margin-top: calc-rem(-40);
 }
 .about-skill{
     display: flex;
-    gap: calc-rem(50);
+    gap: calc-rem(40);
     align-items: center;
     transition: 0.3s;
-    width: calc-rem(100);
-    height: calc-rem(100);
+    width: calc-rem(80);
+    height: calc-rem(80);
 }
 .about-skill img{
     width: 100%;
