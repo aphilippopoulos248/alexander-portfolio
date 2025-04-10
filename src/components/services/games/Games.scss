@@ -22,3 +22,20 @@
     width: 100%;
     margin-top: calc-rem(-20);
 }
+
+@media(max-width: calc-rem(768)){
+    .games{
+        gap: calc-rem(50);
+        margin: calc-rem(50) calc-rem(70);
+    }
+    .games-title h1{
+        font-size: calc-rem(50);
+        padding: 0;
+        width: 130%;
+        margin-left: calc-rem(-20);
+        margin-bottom: calc-rem(40);
+    }
+    .video-component{
+        width: 130%;
+    }
+}
