@@ -41,7 +41,7 @@ const About = () => {
               <p>My journey in development began at the age of 20, when I applied to college for Computer Programming and Analysis.</p>
               <p>My first programming language was C#, and it quickly became one of my favorite languages to code in. I used C# to make a variety of software applications, primarily games. I made my first game with the .Net framework MonoGame, and eventually with Unity. I later learned C++ to make games with Unreal Engine.</p>
               <p>As I continued to learn programming, I learned how to make websites with HTML, CSS, and JavaScript. I quickly picked up on frameworks such as React, Angular, and ASP.Net. I utilized databases such as MongoDB, MySQL, and SQL Server Management Studio for managing data and authentication.</p>
-              <p>I eventually learned how to make mobile apps with Java, using Android Studio. I utlized FireBase for authenticating users and storing data. I learned how to connect API endpoints to use data from external databases.</p>
+              <p>I eventually learned how to make mobile apps with Java, using Android Studio. I utilized FireBase for authenticating users and storing data, and I connected REST APIs from external databases to my applications.</p>
             </div>
             <div className="about-skills" data-aos="fade-up" data-aos-delay="900">
               <div className="about-skill">

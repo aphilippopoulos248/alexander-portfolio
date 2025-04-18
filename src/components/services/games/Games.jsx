@@ -1,6 +1,7 @@
 import React from 'react'
 import './Games.scss'
 import VideoComponent from '../../video/VideoComponent.jsx'
+import Games_Data from '../../../data/games_data'
 import AOS from "aos";
 import "aos/dist/aos.css"
 import { useEffect } from "react"
@@ -16,6 +17,11 @@ const Games = () => {
         </div>
         <div className="video-component">
           < VideoComponent/>
+        </div>
+        <div className="games-container" data-aos="fade-up" data-aos-delay="300">
+            {Games_Data.map((game, index)=>{
+                return <a href={game.g_link}><img key={index} src={game.g_img} alt="" /></a>
+            })}
         </div>
     </div>
   )
