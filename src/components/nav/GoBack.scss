@@ -1,0 +1,30 @@
+@function calc-rem($px) {
+    @return $px / 16 + rem;
+  }
+
+.go-back{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: calc-rem(20) calc-rem(170);
+    position: sticky; 
+    top: calc-rem(20); 
+    z-index: 1000; 
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.05) 70%);
+    border: transparent;
+    border-radius: calc-rem(20);
+}
+.nav-logo{
+    display: flex;
+    flex: none;
+    margin-left: calc-rem(50);
+}
+.nav-logo img{
+    width: 60%;
+}
+.go-back-button{
+    margin-right: calc-rem(150);
+}
+.go-back-button p{
+    font-size: calc-rem(24);
+}

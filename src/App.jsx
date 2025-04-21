@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './components/nav/Navbar'
+import GoBack from './components/nav/GoBack'
 import Hero from './components/hero/Hero'
 import About from './components/about/About'
 import Services from './components/services/Services'
@@ -25,7 +26,12 @@ const App = () => {
               <Footer />
             </>
           } />
-          <Route path="/games" element={<Games />} />
+          <Route path="/games" element={
+            <>
+              <GoBack />
+              <Games />
+            </>
+          } />
         </Routes>
       </Router>
     </div>

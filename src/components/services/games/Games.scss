@@ -12,6 +12,7 @@
 }
 .games-title{
     position: relative;
+    margin-top: calc-rem(-60);
 }
 .games-title h1{
     padding: 0 calc-rem(30);
@@ -43,6 +44,15 @@
     border: calc-rem(4) solid #087EE1;
     border-radius: calc-rem(10);
     transition: 0.3s;
+}
+.game-box{
+    
+}
+.game-box h2{
+    text-align: center;
+    font-size: calc-rem(40);
+    font-weight: 600;
+    padding: calc-rem(20);
 }
 
 @media(max-width: calc-rem(768)){

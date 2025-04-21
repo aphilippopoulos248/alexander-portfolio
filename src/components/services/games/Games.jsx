@@ -19,8 +19,11 @@ const Games = () => {
           < VideoComponent/>
         </div>
         <div className="games-container" data-aos="fade-up" data-aos-delay="300">
-            {Games_Data.map((game, index)=>{
-                return <a href={game.g_link}><img key={index} src={game.g_img} alt="" /></a>
+            {Games_Data.map((game, index)=>{ 
+                return <div className="game-box">
+                <h2>{game.g_name}</h2>
+                <a href={game.g_link}><img key={index} src={game.g_img} alt="" /></a>
+                </div>
             })}
         </div>
     </div>
