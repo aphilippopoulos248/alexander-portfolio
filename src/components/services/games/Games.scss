@@ -58,14 +58,15 @@
 @media(max-width: calc-rem(768)){
     .games{
         gap: calc-rem(50);
-        margin: calc-rem(50) calc-rem(70);
+        margin: calc-rem(70) calc-rem(70);
     }
     .games-title h1{
         font-size: calc-rem(50);
         padding: 0;
         width: 130%;
         margin-left: calc-rem(-20);
-        margin-bottom: calc-rem(40);
+        margin-bottom: calc-rem(20);
+        margin-top: calc-rem(70);
     }
     .video-component{
         width: 130%;
@@ -79,6 +80,9 @@
     }
     .games-container img{
         width: 100%;
-        height: 100%;
+        height: 80%;
+    }
+    .games-container h2{
+        font-size: calc-rem(24);
     }
 }

@@ -28,3 +28,41 @@
 .go-back-button p{
     font-size: calc-rem(24);
 }
+
+@media(max-width: calc-rem(1600)){
+    .go-back{
+        margin: calc-rem(20) calc-rem(100);
+    }
+    .go-back-button {
+        margin-left: calc-rem(10);
+    }
+    .go-back-button p{
+        gap: calc-rem(0);
+        margin-left: calc-rem(0);
+    }
+}
+
+@media(max-width: calc-rem(768)){
+    .go-back{
+        margin: calc-rem(10) calc-rem(20);
+        position: fixed;  
+        top: 0;           
+        left: 0;          
+        width: 90%;      
+        z-index: 1000; 
+    }
+    .nav-logo img{
+        width: 60%;
+        margin-left: calc-rem(-30);
+    }
+    .go-back-button{
+        display: block;
+        position: fixed;
+        right: calc-rem(50);
+        top: calc-rem(2);
+        margin-right: calc-rem(0);
+    }
+    .go-back-button p{
+        font-size: calc-rem(24);
+    }
+}
