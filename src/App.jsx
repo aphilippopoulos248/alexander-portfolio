@@ -30,6 +30,7 @@ const App = () => {
             <>
               <GoBack />
               <Games />
+              <Footer />
             </>
           } />
         </Routes>
