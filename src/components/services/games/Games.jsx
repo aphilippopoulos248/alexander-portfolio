@@ -16,7 +16,8 @@ const Games = () => {
             <h1>My Games</h1>
         </div>
         <div className="video-component">
-          < VideoComponent/>
+        <h2>Watch my game highlights</h2>
+            < VideoComponent className="video"/>
         </div>
         <div className="games-container" data-aos="fade-up" data-aos-delay="300">
             {Games_Data.map((game, index)=>{ 

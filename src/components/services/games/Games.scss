@@ -22,6 +22,12 @@
 .video-component{
     width: 110%;
     margin-top: calc-rem(-20);
+    gap: calc-rem(50);
+}
+.video-component h2{
+    text-align: center;
+    font-size: calc-rem(40);
+    font-weight: 600;
 }
 .games-container{
     display: grid;
@@ -44,9 +50,6 @@
     border: calc-rem(4) solid #087EE1;
     border-radius: calc-rem(10);
     transition: 0.3s;
-}
-.game-box{
-    
 }
 .game-box h2{
     text-align: center;
