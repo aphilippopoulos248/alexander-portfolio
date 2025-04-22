@@ -22,11 +22,36 @@
 .nav-logo img{
     width: 60%;
 }
+.go-back-menu li{
+    display: flex;
+    gap: calc-rem(20);
+    margin-left: calc-rem(20);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.go-back-menu li:hover{
+    transform: scale(1.2);
+    background: linear-gradient(267deg, #05E8BA 0.36%, #087EE1 102.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    transition: 0.3s;
+}
 .go-back-button{
+    display: flex;
+    align-items: center;
+    gap: calc-rem(8);
     margin-right: calc-rem(150);
 }
 .go-back-button p{
     font-size: calc-rem(24);
+    margin: 0;
+}
+.go-back-button img{
+    transform: rotate(180deg);
+    width: calc-rem(40);
+    height: auto;
 }
 
 @media(max-width: calc-rem(1600)){
@@ -58,11 +83,11 @@
     .go-back-button{
         display: block;
         position: fixed;
-        right: calc-rem(50);
-        top: calc-rem(2);
+        right: calc-rem(30);
+        margin-top: calc-rem(-15);
         margin-right: calc-rem(0);
     }
-    .go-back-button p{
-        font-size: calc-rem(24);
+    .go-back-menu p{
+        display: none;
     }
 }

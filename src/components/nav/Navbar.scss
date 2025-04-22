@@ -109,6 +109,7 @@
 @media(max-width: calc-rem(1600)){
     .navbar{
         margin: calc-rem(20) calc-rem(100);
+        width: 90%;    
     }
     .nav-connect{
         gap: calc-rem(0);
