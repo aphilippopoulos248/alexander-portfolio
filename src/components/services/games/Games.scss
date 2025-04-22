@@ -20,12 +20,12 @@
     font-weight: calc-rem(80);
 }
 .video-component{
-    width: 100%;
+    width: 110%;
     margin-top: calc-rem(-20);
 }
 .games-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: calc-rem(40);
     margin-top: calc-rem(-160);
     margin-bottom: calc-rem(100);
