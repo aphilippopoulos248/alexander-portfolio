@@ -74,6 +74,9 @@
     .video-component{
         width: 130%;
     }
+    .video-component h2{
+        font-size: calc-rem(24);
+    }
     .games-container{
         grid-template-columns: 1fr;
         gap: calc-rem(40);

@@ -24,7 +24,7 @@ const GoBack = () => {
           <img src={arrow_icon} alt="Arrow icon" />
           <p>Go Back</p>
         </li>
-        <div className="nav-connect">
+        <div className="go-back-connect">
           <a href="mailto:alexanderphilippopoulos@gmail.com">
             <img src={mail_icon} alt="Mail" />
           </a>
