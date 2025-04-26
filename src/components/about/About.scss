@@ -17,6 +17,7 @@
     padding: calc-rem(0) calc-rem(30);
     font-size: calc-rem(80);
     font-weight: 600;
+    margin-bottom: calc-rem(-20);
 }
 .about-title img{
     position: absolute;
@@ -39,8 +40,8 @@
 .about-para{
     display: flex;
     flex-direction: column;
-    gap: calc-rem(20);
-    font-size: calc-rem(18);
+    gap: calc-rem(15);
+    font-size: calc-rem(20);
     font-weight: 400;
 }
 .about-skills{
