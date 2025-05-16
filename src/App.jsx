@@ -1,4 +1,5 @@
 import React from 'react'
+import Background from './components/background/Background'
 import Navbar from './components/nav/Navbar'
 import GoBack from './components/nav/GoBack'
 import Hero from './components/hero/Hero'
@@ -13,6 +14,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 const App = () => {
   return (
     <div>
+      <Background/>
       <Router>
         <Routes>
           <Route path="/" element={
