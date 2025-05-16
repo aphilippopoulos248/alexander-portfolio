@@ -7,6 +7,8 @@
     flex-direction: column;
     margin: calc-rem(50) calc-rem(170);
     gap: calc-rem(30);
+    position: relative;
+    z-index: 1;
 }
 .footer-top{
     display: flex;

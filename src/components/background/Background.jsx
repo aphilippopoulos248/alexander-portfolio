@@ -336,7 +336,7 @@ const Background = () => {
             "density": {
               "enable": true,
               "area": 800,
-              "factor": 1000
+              "factor": 800
             },
             "limit": 0,
             "value": 100

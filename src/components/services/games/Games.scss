@@ -9,6 +9,8 @@
     justify-content: center;
     gap: calc-rem(80);
     margin: calc-rem(80) calc-rem(170);
+    position: relative;
+    z-index: 1;
 }
 .games-title{
     position: relative;
