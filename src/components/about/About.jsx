@@ -20,9 +20,6 @@ import "aos/dist/aos.css"
 import { useEffect } from "react"
 
 const About = () => {
-    useEffect(() => {
-      AOS.init({})
-    }, [])
   return (
     <div id='about' className='about'>
         <div className="about-title" data-aos="fade-up">

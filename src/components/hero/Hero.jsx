@@ -1,16 +1,31 @@
-import React from 'react'
 import './Hero.scss'
 import profile_img from '../../assets/AlexProfile.png'
 import VideoComponent from '../video/VideoComponent';
 import { TypeAnimation } from "react-type-animation";
 import AOS from "aos";
 import "aos/dist/aos.css"
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 
 const Hero = () => {
+  const wideScreenThreshold = 1200;
+  const [isWideScreen, setIsWideScreen] = useState(window.innerWidth > wideScreenThreshold); // Initialize with the current screen width
+
+  // Detect screen resize to update isWideScreen state
+  // Returns true if window.innerWidth superpasses wideScreenThreshold
   useEffect(() => {
-    AOS.init({})
-  }, [])
+    const handleResize = () => {
+      setIsWideScreen(window.innerWidth > wideScreenThreshold);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  useEffect(() => {
+    AOS.init({
+      offset: isWideScreen ? -800 : -100,
+    })
+  }, [isWideScreen])
   return (
     <div id='home' className='hero'>
         <h1 data-aos="fade-up"><span>Welcome!</span></h1>
