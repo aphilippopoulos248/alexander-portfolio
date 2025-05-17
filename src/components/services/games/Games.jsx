@@ -4,12 +4,28 @@ import VideoComponent from '../../video/VideoComponent.jsx'
 import Games_Data from '../../../data/games_data'
 import AOS from "aos";
 import "aos/dist/aos.css"
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 
 const Games = () => {
-    useEffect(() => {
-        AOS.init({})
-        }, [])
+   const wideScreenThreshold = 1200;
+     const [isWideScreen, setIsWideScreen] = useState(window.innerWidth > wideScreenThreshold); // Initialize with the current screen width
+   
+     // Detect screen resize to update isWideScreen state
+     // Returns true if window.innerWidth superpasses wideScreenThreshold
+     useEffect(() => {
+       const handleResize = () => {
+         setIsWideScreen(window.innerWidth > wideScreenThreshold);
+       };
+   
+       window.addEventListener('resize', handleResize);
+       return () => window.removeEventListener('resize', handleResize);
+     }, []);
+   
+     useEffect(() => {
+       AOS.init({
+         offset: isWideScreen ? -800 : -100,
+       })
+     }, [isWideScreen])
     return (
     <div className='games'>
         <div className="games-title" data-aos="fade-up">
