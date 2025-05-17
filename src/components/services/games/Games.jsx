@@ -31,8 +31,8 @@ const Games = () => {
         <div className="games-title" data-aos="fade-up">
             <h1>My Games</h1>
         </div>
-        <div className="video-component">
-        <h2>Watch my game highlights</h2>
+        <div className="video-component" data-aos="fade-up" data-aos-delay="300">
+            <h2>Watch my game highlights</h2>
             < VideoComponent className="video"/>
         </div>
         <div className="games-container" data-aos="fade-up" data-aos-delay="300">
