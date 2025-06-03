@@ -1,0 +1,96 @@
+@function calc-rem($px) {
+    @return $px / 16 + rem;
+  }
+
+.websites{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: calc-rem(80);
+    margin: calc-rem(80) calc-rem(170);
+    position: relative;
+    z-index: 1;
+}
+.websites-title{
+    position: relative;
+    margin-top: calc-rem(-60);
+}
+.websites-title h1{
+    padding: 0 calc-rem(30);
+    font-size: calc-rem(80);
+    font-weight: calc-rem(80);
+}
+.video-component{
+    width: 95%;
+    margin-top: calc-rem(-40);
+    gap: calc-rem(80);
+}
+.video-component h2{
+    text-align: center;
+    font-size: calc-rem(40);
+    font-weight: 600;
+}
+.websites-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: calc-rem(40);
+    margin-top: calc-rem(0);
+    margin-bottom: calc-rem(100);
+}
+.websites-container img{
+    border: transparent;
+    border-radius: calc-rem(10);
+    box-sizing: border-box;
+    width: calc-rem(420);
+    height: calc-rem(280);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.websites-container img:hover{
+    transform: scale(1.10);
+    border: calc-rem(4) solid #087EE1;
+    border-radius: calc-rem(10);
+    transition: 0.3s;
+}
+.websites-box h2{
+    text-align: center;
+    font-size: calc-rem(40);
+    font-weight: 600;
+    padding: calc-rem(20);
+}
+
+@media(max-width: calc-rem(768)){
+    .websites{
+        gap: calc-rem(50);
+        margin: calc-rem(70) calc-rem(70);
+    }
+    .websites-title h1{
+        font-size: calc-rem(50);
+        padding: 0;
+        width: 130%;
+        margin-left: calc-rem(-20);
+        margin-bottom: calc-rem(20);
+        margin-top: calc-rem(70);
+    }
+    .video-component{
+        width: 130%;
+    }
+    .video-component h2{
+        font-size: calc-rem(24);
+    }
+    .websites-container{
+        grid-template-columns: 1fr;
+        gap: calc-rem(40);
+        margin-top: calc-rem(-160);
+        margin-bottom: calc-rem(80);
+        width: 120%;
+    }
+    .websites-container img{
+        width: 100%;
+        height: 80%;
+    }
+    .websites-container h2{
+        font-size: calc-rem(24);
+    }
+}

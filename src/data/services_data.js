@@ -10,7 +10,7 @@ const Services_Data = [
         s_no:"02",
         s_name:"Web Development",
         s_desc:"Developing websites with React and Angular",
-        s_link:"/",
+        s_link:"/websites",
         s_more:"My Websites"
     },
     {

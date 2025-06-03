@@ -9,6 +9,7 @@ import Projects from './components/projects/Projects'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Games from './components/services/games/Games'
+import Websites from './components/services/websites/Websites'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const App = () => {
@@ -32,6 +33,13 @@ const App = () => {
             <>
               <GoBack />
               <Games />
+              <Footer />
+            </>
+          } />
+          <Route path="/websites" element={
+            <>
+              <GoBack />
+              <Websites />
               <Footer />
             </>
           } />
