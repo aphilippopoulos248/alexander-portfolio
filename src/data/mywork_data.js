@@ -22,7 +22,7 @@ const mywork_data = [
         w_no:3,
         w_name:"Jurassic World Hub",
         w_img:project3_img,
-        w_link:"https://jurassicworldhub.com/"
+        w_link:"https://github.com/aphilippopoulos248/JurassicWorldWebsite"
     },
     {
         w_no:4,
