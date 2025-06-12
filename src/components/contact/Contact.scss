@@ -147,10 +147,6 @@
     .contact-section{
         gap: calc-rem(0);
     }
-    .contact-left{
-        width: 20%;
-        flex-direction: row;
-    }
     .contact-details{
         display: flex;
         flex-direction: row;
@@ -158,9 +154,14 @@
         color: #D8D8D8;
         font-size: calc-rem(22);
         position: relative;
+        right: 0.5rem;
     }
     .contact-detail{
         display: block;
+    }
+    .contact-left{
+        width: 20%;
+        flex-direction: row;
     }
     .contact-left h1{
         display: none;
@@ -177,10 +178,10 @@
         top: 5rem;
     }
     .contact-right input{
-        width: 110%;
+        width: 100%;
     }
     .contact-right textarea{
-        width: 100%;
+        width: 90%;
     }
     .contact-right button{
         margin-left: calc-rem(40);
