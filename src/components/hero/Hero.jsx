@@ -5,6 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 import AOS from "aos";
 import "aos/dist/aos.css"
 import { useEffect, useState } from "react"
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Hero = () => {
   const wideScreenThreshold = 1200;
@@ -49,7 +50,7 @@ const Hero = () => {
           </div>
         <br></br> based in the <span>Greater Toronto Area</span>.</p>
         <div className="hero-action">
-            <div className="hero-connect" data-aos="fade-right" data-aos-delay="900">Connect with me</div>
+            <div className="hero-connect" data-aos="fade-right" data-aos-delay="900"><AnchorLink className='anchor-link' offset={100} href='#contact'><div onClick={()=>setMenu("contact")}>Connect with me</div></AnchorLink></div>
             <div className="hero-resume" data-aos="fade-left" data-aos-delay="900">My resume</div>
         </div>
     </div>
