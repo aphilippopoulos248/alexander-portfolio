@@ -5,7 +5,9 @@ import profile_img from '../../assets/AlexAbout.png'
 import cpp from '../../assets/cpp.svg'
 import cs from '../../assets/cs.svg'
 import java from '../../assets/java.svg'
+import python from '../../assets/python.svg'
 import javascript from '../../assets/javascript.svg'
+import typescript from '../../assets/typescript.svg'
 import html from '../../assets/html.svg'
 import css from '../../assets/css.svg'
 import unity from '../../assets/unity.svg'
@@ -52,7 +54,13 @@ const About = () => {
                 <img src={java} alt="" />
               </div>
               <div className="about-skill">
+                <img src={python} alt="" />
+              </div>
+              <div className="about-skill">
                 <img src={javascript} alt="" />
+              </div>
+              <div className="about-skill">
+                <img src={typescript} alt="" />
               </div>
               <div className="about-skill">
                 <img src={html} alt="" />
