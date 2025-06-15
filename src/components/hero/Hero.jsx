@@ -52,12 +52,14 @@ const Hero = () => {
       <div className="hero-action">
         <div className="hero-connect" data-aos="fade-right" data-aos-delay="900">
           <AnchorLink className='anchor-link' offset={100} href='#contact'>
-            <div onClick={() => setMenu("contact")}>Connect with me</div>
+            <div onClick={() => setMenu("contact")}>
+              Connect With Me
+            </div>
           </AnchorLink>
         </div>
         <a href="/my-resume.pdf" target="_blank" rel="noopener noreferrer">
           <div className="hero-resume" data-aos="fade-left" data-aos-delay="900">
-            My resume
+            My Resume
           </div>
         </a>
       </div>

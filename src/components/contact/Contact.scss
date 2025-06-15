@@ -51,7 +51,6 @@
 }
 .contact-left p{
     max-width: calc-rem(550);
-    color: #D8D8D8;
     font-size: calc-rem(20);
     line-height: calc-rem(35);
 }
@@ -59,7 +58,6 @@
     display: flex;
     flex-direction: column;
     gap: calc-rem(30);
-    color: #D8D8D8;
     font-size: calc-rem(22);
 }
 .contact-detail{
@@ -74,7 +72,6 @@
     gap: calc-rem(20);
 }
 .contact-right label{
-    color: #D8D8D8;
     font-size: calc-rem(22);
     font-weight: 500;
 }
