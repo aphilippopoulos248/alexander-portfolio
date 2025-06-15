@@ -63,6 +63,10 @@
     line-height: calc-rem(50);
     margin-bottom: calc-rem(100);
 }
+.hero-action a{
+    text-decoration: none;
+    color: white;
+}
 .hero-connect{
     padding: calc-rem(25) calc-rem(45);
     border-radius: calc-rem(50);

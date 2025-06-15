@@ -29,30 +29,38 @@ const Hero = () => {
   }, [isWideScreen])
   return (
     <div id='home' className='hero'>
-        <h1 data-aos="fade-up"><span>Welcome!</span></h1>
-        <img src={profile_img} alt="" data-aos="fade-up" data-aos-delay="300"/>
-        <p data-aos="fade-up" data-aos-delay="600">Hello! My name is <span>Alexander Philippopoulos</span>. I'm a <br></br>
-          <div className="type-animation">
-             <TypeAnimation
-              sequence={[
-                1000,
-                "Game Developer",
-                3000, 
-                "Web Developer",
-                3000,
-                "Mobile Developer",
-                2000,
-              ]}
-              wrapper="span"
-              speed={50}
-              repeat={Infinity}
-            />
-          </div>
-        <br></br> based in the <span>Greater Toronto Area</span>.</p>
-        <div className="hero-action">
-            <div className="hero-connect" data-aos="fade-right" data-aos-delay="900"><AnchorLink className='anchor-link' offset={100} href='#contact'><div onClick={()=>setMenu("contact")}>Connect with me</div></AnchorLink></div>
-            <div className="hero-resume" data-aos="fade-left" data-aos-delay="900">My resume</div>
+      <h1 data-aos="fade-up"><span>Welcome!</span></h1>
+      <img src={profile_img} alt="" data-aos="fade-up" data-aos-delay="300" />
+      <p data-aos="fade-up" data-aos-delay="600">Hello! My name is <span>Alexander Philippopoulos</span>. I'm a <br></br>
+        <div className="type-animation">
+          <TypeAnimation
+            sequence={[
+              1000,
+              "Game Developer",
+              3000,
+              "Web Developer",
+              3000,
+              "Mobile Developer",
+              2000,
+            ]}
+            wrapper="span"
+            speed={50}
+            repeat={Infinity}
+          />
         </div>
+        <br></br> based in the <span>Greater Toronto Area</span>.</p>
+      <div className="hero-action">
+        <div className="hero-connect" data-aos="fade-right" data-aos-delay="900">
+          <AnchorLink className='anchor-link' offset={100} href='#contact'>
+            <div onClick={() => setMenu("contact")}>Connect with me</div>
+          </AnchorLink>
+        </div>
+        <a href="/my-resume.pdf" target="_blank" rel="noopener noreferrer">
+          <div className="hero-resume" data-aos="fade-left" data-aos-delay="900">
+            My resume
+          </div>
+        </a>
+      </div>
     </div>
   )
 }
