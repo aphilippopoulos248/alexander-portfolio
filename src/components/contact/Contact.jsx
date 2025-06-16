@@ -41,7 +41,7 @@ const Contact = () => {
       </div>
       <div className="contact-section">
         <div className="contact-left" data-aos="fade-right" data-aos-delay="300">
-          <h1>Let's Create</h1>
+          <h1>Reach Out!</h1>
           <p>I'm currently available to help with any projects, so feel free to reach out to me.</p>
           <div className="contact-details">
             <div className="contact-detail">
