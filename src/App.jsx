@@ -10,6 +10,7 @@ import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Games from './components/services/games/Games'
 import Websites from './components/services/websites/Websites'
+import AI from './components/services/ai/AI'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const App = () => {
@@ -40,6 +41,13 @@ const App = () => {
             <>
               <GoBack />
               <Websites />
+              <Footer />
+            </>
+          } />
+          <Route path="/ai" element={
+            <>
+              <GoBack />
+              <AI />
               <Footer />
             </>
           } />

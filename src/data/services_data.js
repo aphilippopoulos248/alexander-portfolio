@@ -17,7 +17,7 @@ const Services_Data = [
         s_no:"03",
         s_name:"Artificial Intelligence",
         s_desc:"Integrating AI models in software applications",
-        s_link:"/",
+        s_link:"/ai",
         s_more:"My Apps"
     },
 ]
