@@ -29,7 +29,7 @@ const Websites = () => {
     return (
     <div className='websites'>
         <div className="websites-title" data-aos="fade-up">
-            <h1>My Websites</h1>
+            <h1>My Websites/Apps</h1>
         </div>
         {/* <div className="video-component" data-aos="fade-up" data-aos-delay="300">
             <h2>Watch my game highlights</h2>

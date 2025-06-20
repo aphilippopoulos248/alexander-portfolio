@@ -33,7 +33,7 @@
 }
 .websites-container{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: calc-rem(40);
     margin-top: calc-rem(0);
     margin-bottom: calc-rem(100);
