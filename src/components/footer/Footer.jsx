@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.scss'
-import footer_logo from '../../assets/ap-logo.png'
+import footer_logo from '../../assets/ap-logo.svg'
 import user_icon from '../../assets/user_icon.svg'
 
 const Footer = () => {

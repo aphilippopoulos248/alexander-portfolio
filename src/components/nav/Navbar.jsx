@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react'
 import './Navbar.scss'
-import logo from '../../assets/ap-logo.png'
+import logo from '../../assets/ap-logo.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import menu_open from "../../assets/menu_open.svg"
 import menu_close from "../../assets/menu_close.svg"

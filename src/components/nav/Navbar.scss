@@ -18,6 +18,7 @@
     display: flex;
     flex: none;
     margin-left: calc-rem(50);
+    width: 10%;
 }
 .nav-logo img{
     width: 60%;
@@ -136,6 +137,9 @@
         left: 0;          
         width: 90%;      
         z-index: 1000;     
+    }
+    .nav-logo{
+        width: 30%;
     }
     .nav-logo img{
         width: 60%;
