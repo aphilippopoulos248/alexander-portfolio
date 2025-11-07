@@ -1,6 +1,6 @@
 import React from 'react'
 import './GoBack.scss'
-import logo from '../../assets/ap-logo.png'
+import logo from '../../assets/ap-logo.svg'
 import { useNavigate } from 'react-router-dom'
 import arrow_icon from "../../assets/arrow_icon.svg"
 import linkedin_icon from "../../assets/icons8-linkedin.svg"
