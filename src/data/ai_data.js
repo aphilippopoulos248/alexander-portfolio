@@ -17,7 +17,7 @@ const AI_Data = [
     },
     {
         a_no:3,
-        a_name:"Sgt Captcha",
+        a_name:"Sgt. Captcha",
         a_img:project3_img,
         a_link:"https://devpost.com/software/yo-jutk6n"
     }
