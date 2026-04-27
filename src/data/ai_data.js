@@ -1,5 +1,6 @@
 import project1_img from '../assets/blinky-icon.png'
 import project2_img from '../assets/bob.png'
+import project3_img from '../assets/sgt-captcha.png'
 
 const AI_Data = [
     {
@@ -13,6 +14,12 @@ const AI_Data = [
         a_name:"Bob the MetaHuman",
         a_img:project2_img,
         a_link:"https://github.com/aphilippopoulos248/MetaHuman-code"
+    },
+    {
+        a_no:3,
+        a_name:"Sgt Captcha",
+        a_img:project3_img,
+        a_link:"https://devpost.com/software/yo-jutk6n"
     }
 ]
  
