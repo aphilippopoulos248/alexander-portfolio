@@ -4,6 +4,7 @@ import theme_pattern from '../../assets/theme_pattern.svg'
 import call_icon from '../../assets/call_icon.svg'
 import linkedin_icon from "../../assets/icons8-linkedin.svg"
 import github_icon from "../../assets/icons8-github-48.svg"
+import coffee_icon from "../../assets/icons8-coffee-48.svg"
 import mail_icon from "../../assets/gmail.svg"
 
 const Contact = () => {
@@ -67,6 +68,12 @@ const Contact = () => {
                 <img src={github_icon} alt="GitHub" />
               </a>
               <p>My GitHub</p>
+            </div>
+            <div className="contact-detail">
+              <a href="https://buymeacoffee.com/alexanderpbw" target="_blank" rel="noopener noreferrer">
+                <img src={coffee_icon} alt="Buy me a coffee" />
+              </a>
+              <p>Buy me a coffee</p>
             </div>
           </div>
 
