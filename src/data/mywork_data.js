@@ -1,7 +1,7 @@
 import project1_img from '../assets/SunnyLand.png'
 import project2_img from '../assets/GrimwoodManor.png'
 import project3_img from '../assets/jurassic-world-hub.png'
-import project4_img from '../assets/EventHorizon.jpg'
+import project4_img from '../assets/MeetYourChatterPal.jpg'
 import project5_img from '../assets/AnimalSimulator.png'
 import project6_img from '../assets/blinky-icon.png'
 
@@ -26,9 +26,9 @@ const mywork_data = [
     },
     {
         w_no:4,
-        w_name:"Event Horizon",
+        w_name:"Meet Your ChatterPal",
         w_img:project4_img,
-        w_link:"https://github.com/JoshLanesmith/Events_MobileApp"
+        w_link:"https://meetyourchatterpal.vercel.app"
     },
     {
         w_no:5,

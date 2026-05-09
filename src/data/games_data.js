@@ -2,7 +2,7 @@ import project1_img from '../assets/TurboSpeed.png'
 import project2_img from '../assets/SunnyLand.png'
 import project3_img from '../assets/GrimwoodManor.png'
 import project4_img from '../assets/AnimalSimulator.png'
-import project5_img from '../assets/project_5.svg'
+import project5_img from '../assets/MeetYourChatterPal.jpg'
 import project6_img from '../assets/project_6.svg'
 
 const Games_Data = [
@@ -29,6 +29,12 @@ const Games_Data = [
         g_name:"Animal Simulator",
         g_img:project4_img,
         g_link:"https://aphilippopoulos248.itch.io/animal-simulator"
+    },
+    {
+        g_no:5,
+        g_name:"Meet Your ChatterPal",
+        g_img:project5_img,
+        g_link:"https://meetyourchatterpal.vercel.app"
     },
 ]
  
