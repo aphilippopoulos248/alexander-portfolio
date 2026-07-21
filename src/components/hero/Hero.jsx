@@ -57,7 +57,7 @@ const Hero = () => {
             </div>
           </AnchorLink>
         </div>
-        <a href="/my-resume.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="/Alexander_Philippopoulos_Resume.pdf" target="_blank" rel="noopener noreferrer">
           <div className="hero-resume" data-aos="fade-left" data-aos-delay="900">
             My Resume
           </div>
