@@ -5,6 +5,7 @@ import project4_img from '../assets/AnimalSimulator.png'
 import project5_img from '../assets/MeetYourChatterPal.jpg'
 import project6_img from '../assets/project_6.svg'
 import project7_img from '../assets/UnbrokenDynasty.jpg'
+import project8_img from '../assets/ImpishousDarkness.png'
 
 const Games_Data = [
     {
@@ -42,6 +43,12 @@ const Games_Data = [
         g_name:"Unbroken Dynasty",
         g_img:project7_img,
         g_link:"https://falcoder248.itch.io/unbroken-dynasty"
+    },
+    {
+        g_no:7,
+        g_name:"Impishous Darkness",
+        g_img:project8_img,
+        g_link:"https://songsword-studios.itch.io/impishous-darkness"
     },
 ]
  
