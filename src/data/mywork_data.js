@@ -1,4 +1,4 @@
-import project1_img from '../assets/SunnyLand.png'
+import project1_img from '../assets/UnbrokenDynasty.jpg'
 import project2_img from '../assets/GrimwoodManor.png'
 import project3_img from '../assets/jurassic-world-hub.png'
 import project4_img from '../assets/MeetYourChatterPal.jpg'
@@ -8,9 +8,9 @@ import project6_img from '../assets/blinky-icon.png'
 const mywork_data = [
     {
         w_no:1,
-        w_name:"SunnyLand",
+        w_name:"Unbroken Dynasty",
         w_img:project1_img,
-        w_link:"https://aphilippopoulos248.itch.io/sunnyland-10"
+        w_link:"https://falcoder248.itch.io/unbroken-dynasty"
     },
     {
         w_no:2,

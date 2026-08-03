@@ -4,6 +4,7 @@ import project3_img from '../assets/GrimwoodManor.png'
 import project4_img from '../assets/AnimalSimulator.png'
 import project5_img from '../assets/MeetYourChatterPal.jpg'
 import project6_img from '../assets/project_6.svg'
+import project7_img from '../assets/UnbrokenDynasty.jpg'
 
 const Games_Data = [
     {
@@ -35,6 +36,12 @@ const Games_Data = [
         g_name:"Meet Your ChatterPal",
         g_img:project5_img,
         g_link:"https://meetyourchatterpal.vercel.app"
+    },
+    {
+        g_no:6,
+        g_name:"Unbroken Dynasty",
+        g_img:project7_img,
+        g_link:"https://falcoder248.itch.io/unbroken-dynasty"
     },
 ]
  
