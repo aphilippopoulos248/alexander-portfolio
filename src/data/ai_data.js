@@ -1,6 +1,7 @@
 import project1_img from '../assets/blinky-icon.png'
 import project2_img from '../assets/bob.png'
 import project3_img from '../assets/sgt-captcha.png'
+import project4_img from '../assets/PokeNet.jpg'
 
 const AI_Data = [
     {
@@ -20,6 +21,12 @@ const AI_Data = [
         a_name:"Sgt. Captcha",
         a_img:project3_img,
         a_link:"https://devpost.com/software/yo-jutk6n"
+    },
+    {
+        a_no:4,
+        a_name:"PokeNet",
+        a_img:project4_img,
+        a_link:"https://github.com/aphilippopoulos248/PokeNet"
     }
 ]
  

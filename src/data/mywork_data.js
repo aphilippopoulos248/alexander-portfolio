@@ -1,5 +1,5 @@
 import project1_img from '../assets/UnbrokenDynasty.jpg'
-import project2_img from '../assets/GrimwoodManor.png'
+import project2_img from '../assets/PokeNet.jpg'
 import project3_img from '../assets/jurassic-world-hub.png'
 import project4_img from '../assets/ImpishousDarkness.png'
 import project5_img from '../assets/AnimalSimulator.png'
@@ -14,9 +14,9 @@ const mywork_data = [
     },
     {
         w_no:2,
-        w_name:"Grimwood Manor",
+        w_name:"PokeNet",
         w_img:project2_img,
-        w_link:"https://aphilippopoulos248.itch.io/grimwood-manor"
+        w_link:"https://github.com/aphilippopoulos248/PokeNet"
     },
     {
         w_no:3,
