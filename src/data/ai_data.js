@@ -2,6 +2,7 @@ import project1_img from '../assets/blinky-icon.png'
 import project2_img from '../assets/bob.png'
 import project3_img from '../assets/sgt-captcha.png'
 import project4_img from '../assets/PokeNet.jpg'
+import project5_img from '../assets/ChurnRateAnalyzer.png'
 
 const AI_Data = [
     {
@@ -27,6 +28,12 @@ const AI_Data = [
         a_name:"PokeNet",
         a_img:project4_img,
         a_link:"https://github.com/aphilippopoulos248/PokeNet"
+    },
+    {
+        a_no:5,
+        a_name:"Churn Rate Analyzer",
+        a_img:project5_img,
+        a_link:"https://github.com/aphilippopoulos248/ChurnRateAnalyzer"
     }
 ]
  

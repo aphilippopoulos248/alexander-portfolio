@@ -3,7 +3,7 @@ import project2_img from '../assets/PokeNet.jpg'
 import project3_img from '../assets/jurassic-world-hub.png'
 import project4_img from '../assets/ImpishousDarkness.png'
 import project5_img from '../assets/AnimalSimulator.png'
-import project6_img from '../assets/blinky-icon.png'
+import project6_img from '../assets/ChurnRateAnalyzer.png'
 
 const mywork_data = [
     {
@@ -38,9 +38,9 @@ const mywork_data = [
     },
     {
         w_no:6,
-        w_name:"Blinky",
+        w_name:"Churn Rate Analyzer",
         w_img:project6_img,
-        w_link:"https://github.com/aphilippopoulos248/Blinky-Bot"
+        w_link:"https://github.com/aphilippopoulos248/ChurnRateAnalyzer"
     },
 ]
  
